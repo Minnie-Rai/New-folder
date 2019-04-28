@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>New</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel='stylesheet' href="css/style.css" type='text/css' media='all' />
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+ </head>
+    <body>
+        <!--div>
+
+            <ul class="menu">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li class="slider"></li>
+            </ul>
+        </div-->
+        <nav class="fill">
+           <ul>
+              <li style="font: 150 30px/0.8 , Helvetica, sans-serif;color: #fff;  font-size: 1.5em;
+              text-shadow: 4px 4px 3px rgba(0,0,0,0.1);"><a href="#">Hey There !!!😋</a></li>
+              <li style="font: 150 30px/0.8 , Helvetica, sans-serif;color: #fff;  font-size: 1.5em;
+              text-shadow: 4px 4px 3px rgba(0,0,0,0.1);"><a href="about_us.html"target="__new">How It All Happened !!😍</a></li>
+              <li style="font: 150 30px/0.8 , Helvetica, sans-serif;color: #fff;  font-size: 1.5em;
+              text-shadow: 4px 4px 3px rgba(0,0,0,0.1);"><a href="portfolio.html"target="__new">Portfolio 😬😬</a></li>
+          </ul>
+        </nav>
+        
+              <div id="direita" class="bgImage" style="width: 70% ;
+                                                      height: 780px; 
+                                                      margin-left:15%; 
+                                                      border-radius: 8px;
+                                                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"> 
+
+                                                   <div class="overlay">
+                                                        <h1 style="color:#fff;">HEY BHARU!!!<i class="em em-heart_eyes"></i><i class="em em-blush"></i></br>  
+
+                                                      <div class="bigframe">
+                                                      <h2 style = "text-align:center;">
+                                                        
+                                                      <p style = "text-align: middle;
+                                                      margin-left: 50px;
+                                                        width: 120%;
+                                                        text-shadow: 
+                                                        0 -1px 0 rgb(8, 230, 211), 
+                                                        0 1px 0 #2e2e2e, 
+                                                        0 2px 0 #2c2c2c, 
+                                                        0 3px 0 #2a2a2a, 
+                                                        0 4px 0 #282828, 
+                                                        0 5px 0 #262626, 
+                                                        0 6px 0 #242424, 
+                                                        0 7px 0 #222, 
+                                                        0 8px 0 #202020, 
+                                                        0 9px 0 #1e1e1e, 
+                                                        0 10px 0 #1c1c1c, 
+                                                        0 11px 0 #1a1a1a, 
+                                                        0 12px 0 #181818, 
+                                                        0 13px 0 #161616, 
+                                                        0 14px 0 #141414, 
+                                                        0 15px 0 #121212, 
+                                                        0 22px 30px rgba(0, 0, 0, 0.9);padding: 50px;">
+                                                    Today We Celebrate The Best Decision You Ever Made!!!..<i class="em em-relieved"></i><i class="em em-smirk"></i></br>
+                                                </br> "HAPPY ANNIVERSARY"...<i class="em em-hugging_face"></i></br>WELCOME HERE!!!<i class="em em-hushed"></i>
+                                            </br>  </br>Thank you for hitting it and not quitting it!!!<i class="em em-flushed"></i><i class="em em-woman-heart-man"></i>
+                                                    
+                                                    </p>
+                                                
+                                                </h2>
+
+                                                    </div>
+
+                                                </div> 
+
+              <div class="nav.fill"></div>
+              </div>
+              <section style="  background-image:  url(images/gif.gif);
+                padding: 55px;
+                text-align: center;
+                border-radius:8px;
+                box-shadow: #1a1a1a;
+                font-size: 35px;
+                color: white;
+                margin-left:15px;
+                margin-bottom:25px;
+                margin-top:25px;
+                text-shadow: 0 0 3px #FF0000;">
+                Ohh My God!! Ohh My Gawd!! We are here completing two years!!...<i class="em em-astonished"></i>    
+                So, Just take up a 5 mins test to find out what kind of potato you really are!!<i class="em em-laughing"></i><i class="em em-rolling_on_the_floor_laughing"></i>
+                Hint<i class="em em-point_right"></i>
+                Look up for inspiration, down in desperation n left & right for information..<i class="em em-thinking_face"></i> 
+              </section>
+            <div id="container">
+            <div id="start"></br>&nbsp; Let's Begin!!</div>
+            <div id="quiz" style="display: none">
+                <div id="question"></div>
+                <div id="qImg"></div>
+                <div id="choices">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                </div>
+                <div id="timer">
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div>
+                <div id="progress"></div>
+            </div>
+            <div id="scoreContainer" style="display: none"></div>
+        </div>
+        <style>
+        @keyframes fadeIn {
+         0% {
+         opacity: 0;
+         }
+         100% {
+         opacity: 0.9;
+         }
+         }
+
+        h2 {
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out 3s forwards;
+        }
+        </style>
+        <script>
+
+          
+        
+        // select all elements
+            const start = document.getElementById("start");
+            const quiz = document.getElementById("quiz");
+            const question = document.getElementById("question");
+            const qImg = document.getElementById("qImg");
+            const choiceA = document.getElementById("A");
+            const choiceB = document.getElementById("B");
+            const choiceC = document.getElementById("C");
+            const timeGauge = document.getElementById("timeGauge");
+            const progress = document.getElementById("progress");
+            const scoreDiv = document.getElementById("scoreContainer");
+
+// create our questions
+        let questions = [
+            {
+                question : "I'm something you can hold, also that you can find anything on me. What am I ???",
+                imgSrc : "images/lap.png",
+                choiceA : "Google",
+                choiceB : "Laptop",
+                choiceC : "Book",
+                correct : "B"
+            },{
+                question : "Count to 12 by 5's What am I?!!",
+                imgSrc : "images/clock.gif",
+                choiceA : "Rupees",
+                choiceB : "Clock",
+                choiceC : "Steps",
+                correct : "B"
+            },
+            {
+                question : "Some say im cute, others say I'm messy.. What am I?",
+                imgSrc : "images/dog.gif",
+                choiceA : "Your gf",
+                choiceB : "Teddy",
+                choiceC : "Dog",
+                correct : "C"
+            },
+            {
+                question : "I am a nation , all lazy undergraduates hate me. What am I?",
+                imgSrc : "images/exam.gif",
+                choiceA : "Nation",
+                choiceB : "Examination",
+                choiceC : "India",
+                correct : "B"
+            },
+            {
+                question : "I'm as light as a feather, yet few can hold me. What am I?",
+                imgSrc : "images/tongue.gif",
+                choiceA : "tongue",
+                choiceB : "Bird",
+                choiceC : "Hammer",
+                correct : "A"
+            },
+            {
+                question : "What breaks when you say it?",
+                imgSrc : "images/shh.gif",
+                choiceA : "Silence",
+                choiceB : "Words",
+                choiceC : "Tears",
+                correct : "A"
+            },
+
+
+        ];
+
+// create some variables
+
+        const lastQuestion = questions.length - 1;
+        let runningQuestion = 0;
+        let count = 0;
+        const questionTime = 10; // 10s
+        const gaugeWidth = 150; // 150px
+        const gaugeUnit = gaugeWidth / questionTime;
+        let TIMER;
+        let score = 0;
+
+        // render a question
+        function renderQuestion(){
+            let q = questions[runningQuestion];
+            
+            question.innerHTML = "<p>"+ q.question +"</p>";
+            qImg.innerHTML = "<img src="+ q.imgSrc +">";
+            choiceA.innerHTML = q.choiceA;
+            choiceB.innerHTML = q.choiceB;
+            choiceC.innerHTML = q.choiceC;
+        }
+
+        start.addEventListener("click",startQuiz);
+
+        // start quiz
+        function startQuiz(){
+            start.style.display = "none";
+            renderQuestion();
+            quiz.style.display = "block";
+            renderProgress();
+            renderCounter();
+        }
+
+        // render progress
+        function renderProgress(){
+            for(let qIndex = 0; qIndex <= lastQuestion; qIndex++){
+                progress.innerHTML += "<div class='prog' id="+ qIndex +"></div>";
+            }
+        }
+
+        // counter render
+
+        function renderCounter(){
+            if(count <= questionTime){
+                counter.innerHTML = count;
+                timeGauge.style.width = count * gaugeUnit + "px";
+                count++
+            }else{
+                count = 0;
+                // change progress color to red
+                answerIsWrong();
+                if(runningQuestion < lastQuestion){
+                    runningQuestion++;
+                    renderQuestion();
+                }else{
+                    // end the quiz and show the score
+                    clearInterval(TIMER);
+                    scoreRender();
+                }
+            }
+        }
+
+        // checkAnwer
+
+        function checkAnswer(answer){
+            if( answer == questions[runningQuestion].correct){
+                // answer is correct
+                score++;
+                // change progress color to green
+                answerIsCorrect();
+            }else{
+                // answer is wrong
+                // change progress color to red
+                answerIsWrong();
+            }
+            count = 0;
+            if(runningQuestion < lastQuestion){
+                runningQuestion++;
+                renderQuestion();
+            }else{
+                // end the quiz and show the score
+                clearInterval(TIMER);
+                scoreRender();
+            }
+        }
+
+        // answer is correct
+        function answerIsCorrect(){
+            document.getElementById(runningQuestion).style.backgroundColor = "#0f0";
+        }
+
+        // answer is Wrong
+        function answerIsWrong(){
+            document.getElementById(runningQuestion).style.backgroundColor = "#f00";
+        }
+
+        // score render
+        function scoreRender(){
+            scoreDiv.style.display = "block";
+            
+            // calculate the amount of question percent answered by the user
+            const scorePerCent = Math.round(100 * score/questions.length);
+            
+            // choose the image based on the scorePerCent
+            let img = (scorePerCent >= 80) ? "images/5.png" :
+                    (scorePerCent >= 60) ? "images/4.png" :
+                    (scorePerCent >= 40) ? "images/3.png" :
+                    (scorePerCent >= 20) ? "images/2.png" :
+                    "img/1.png";
+            
+            scoreDiv.innerHTML = "<img src="+ img +">";
+            scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
+        }
+
+        </script>
+                    <div class="container">
+                    <canvas id="myCanvas" width="200" height="100"></canvas>
+                    <div id="myDiv"></div>
+                    <div></br></br></br></br></br></br></div>
+        </body>
+
+
+            </html>
